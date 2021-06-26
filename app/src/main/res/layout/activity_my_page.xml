@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyPage">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:text="查找中心" />
+
+    <Button
+        android:id="@+id/buttonshuqing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openShuQing"
+        android:layout_weight="1"
+        android:textColor="@color/colorPrimary"
+        android:text="抒情诗句"
+        android:textSize="36dp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button2xiejing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openXieJing"
+        android:layout_weight="1"
+        android:textSize="36dp"
+        android:textColor="@color/colorPrimary"
+        android:text="写景诗句"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button3songbie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openSongBie"
+        android:layout_weight="1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36dp"
+        android:text="送别诗句"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button4lizhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openLiZhi"
+        android:layout_weight="1"
+        android:textSize="36dp"
+        android:textColor="@color/colorPrimary"
+        android:text="励志诗句"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/button5yongwu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openYongWu"
+        android:layout_weight="1"
+        android:textSize="36dp"
+        android:textColor="@color/colorPrimary"
+        android:text="咏物诗句"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/button6aiguo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openAiGuo"
+        android:layout_weight="1"
+        android:textSize="36dp"
+        android:textColor="@color/colorPrimary"
+        android:text="爱国诗句"
+        tools:ignore="OnClick" />
+
+
+</LinearLayout>
